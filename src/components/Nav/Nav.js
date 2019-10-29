@@ -32,8 +32,8 @@ class Nav extends Component {
                 
                     <ul>
                         <li className="logo" style={{ fontSize : 30 }}>MemoryClickGame</li>
-                        <li className="center-align col s3" style={{marginLeft : 250}}> {this.renderMessage(this.props.correct, this.props.gameWon)} </li>
-                        <li className="right-align col s3" style={{marginLeft : 250, fontSize : 30}}>Score: {this.props.score} | High Score: {this.props.highScore}</li>
+                        <li className="center-align col s3" style={{marginLeft : 50}}> {this.renderMessage(this.props.correct, this.props.gameWon)} </li>
+                        <li className="right-align col s3" style={{marginLeft : 50, fontSize : 30}}>Score: {this.props.score} | High Score: {this.props.highScore}</li>
                     </ul>
                 
             </nav>
